@@ -29,7 +29,7 @@ The API follows a standard RESTful approach for CRUD operations on Users and Wal
 
 ### Users Endpoints
 
-|--------|---------------------|---------------------------------------------|
+
 | Method | URL                 | Description                                 |
 |--------|---------------------|---------------------------------------------|
 | GET    | /users              | Get all users.                              |
@@ -37,11 +37,11 @@ The API follows a standard RESTful approach for CRUD operations on Users and Wal
 | POST   | /users              | Create a new user.                          |
 | PUT    | /users/:id          | Update an existing user.                    |
 | DELETE | /users/:id          | Delete a user by ID.                        |
-|--------|---------------------|---------------------------------------------|
+
 
 ### WalletAddress Endpoints
 
-|--------|-------------------------|----------------------------------------------|
+
 | Method | URL                     | Description                                  |
 |--------|-------------------------|----------------------------------------------|
 | GET    | /wallet-address         | Get all wallet addresses.                    |
@@ -49,4 +49,4 @@ The API follows a standard RESTful approach for CRUD operations on Users and Wal
 | POST   | /wallet-address         | Create a new wallet address.                 |
 | PUT    | /wallet-address/:id     | Update an existing wallet address.           |
 | DELETE | /wallet-address/:id     | Delete a wallet address by ID.               |
-|--------|-------------------------|----------------------------------------------|
+
