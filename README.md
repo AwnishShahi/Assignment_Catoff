@@ -1,6 +1,13 @@
 # NestJS PostgreSQL CRUD API
 
-This project is a basic NESTjs application that manages a PostgreSQL database with two tables: `Users` and `WalletAddress`. It implements CRUD operations for these tables through RESTful API endpoints.
+I've set up a NestJS application with basic CRUD operations for Users and WalletAddress tables in a PostgreSQL database. I also implemented validation, error handling, and API documentation with Swagger. Here's a brief summary of what I did:
+Created a NestJS project and set up PostgreSQL integration.
+Defined entities and DTOs for Users and WalletAddress.
+Implemented CRUD services and controllers.
+Added validation using class-validator and class-transformer.
+Implemented global error handling.
+Added Swagger for API documentation.
+Tested the API endpoints using Postman.
 
 ## Setup Instructions
 Clone the Repository
@@ -49,4 +56,3 @@ The API follows a standard RESTful approach for CRUD operations on Users and Wal
 | POST   | /wallet-address         | Create a new wallet address.                 |
 | PUT    | /wallet-address/:id     | Update an existing wallet address.           |
 | DELETE | /wallet-address/:id     | Delete a wallet address by ID.               |
-
